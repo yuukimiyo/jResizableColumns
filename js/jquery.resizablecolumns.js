@@ -34,7 +34,7 @@
 	var options;
 
 	/**
-	 * jWaterSurfaceのメイン関数
+	 * jResizableColumnsのメイン関数
 	 */
 	jQuery.fn.resizablecolumns = function(options) {
 		var options = jQuery.extend({
