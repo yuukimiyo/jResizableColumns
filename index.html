@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link href="css/smoothness/jquery-ui-1.9.1.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.8.2.js"></script>
+	<script src="js/jquery-ui-1.9.1.custom.js"></script>
+	<script src="js/jquery.resizablecolumns.js"></script>
+<script type="text/javascript">
+$(function() {
+	
+	$('.resizable').resizable();
+	$('#wrapper').resizablecolumns();
+	$('#wrapper2').resizablecolumns();
+
+});
+</script>
+</head>
+<body>
+	
+	<div id="wrapper">
+		<div class="header">
+			header
+		</div>
+		<div class="resizable">
+			resizable
+		</div>
+		<div class="dependent">
+			dependent
+		</div>
+		<div class="footer">footer</div>
+	</div>
+	<br />
+	<div id="wrapper2">
+		<div class="header">
+			header
+		</div>
+		<div class="resizable">
+			resizable
+		</div>
+		<div class="dependent">
+			dependent
+		</div>
+		<div class="footer">footer</div>
+	</div>
+	
+	
+	<p id="test-area"></p>
+</body>
+</html>

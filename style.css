@@ -1,0 +1,32 @@
+body {
+	background-color: #fff;
+}
+#wrapper {
+	width: 80%;
+	border: solid 1px #000;
+}
+#wrapper2 {
+	width: 80%;
+	border: solid 1px #000;
+}
+.header {
+	width: 99%;
+	border: solid 1px #0f0;
+}
+.footer {
+	clear: both;
+	width: 99%;
+	border: solid 1px #0ff;
+}
+.resizable {
+	float: left;
+	width: 20%;
+	height: 100px;
+	border: solid 1px #f00;
+}
+.dependent {
+	float: left;
+	width: 79%;
+	height: 100px;
+	border: solid 2px #00f;
+}
