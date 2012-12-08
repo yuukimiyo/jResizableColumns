@@ -1,39 +1,30 @@
-body {
-	background-color: #fff;
-}
-#wrapper {
+#jrc-wrapper {
 	width: 80%;
 	border: solid 1px #000;
 }
-#wrapper2 {
-	width: 80%;
-	border: solid 1px #000;
-}
-.header {
+.jrc-header {
 	border: solid 2px #0f0;
 }
-.footer {
+.jrc-footer {
 	clear: both;
 	border: solid 2px #0ff;
 }
-.resizable {
+.jrc-resizable {
 	float: left;
 	width: 30%;
-	height: 100px;
+	min-width: 100px;
+	height: 200px;
 	border: solid 2px #f00;
 }
-.dependent {
+.jrc-dependent {
 	float: left;
-	width: 69%;
-	height: 100px;
+	width: 68%;
+	height: 200px;
 	border: solid 2px #00f;
 }
 
-.resizable p {
-	border: dashed 4px #00ffff;
+.jrc-resizable p,
+.jrc-dependent p {
 	margin:0;
-}
-.dependent p {
-	border: dashed 4px #ffff00;
-	margin:0;
+	font-size: 14px;
 }
