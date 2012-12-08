@@ -76,7 +76,7 @@
 			} else {
 				maxWidthValue = options.maxWidth;
 			}
-			jQuery('#test-area').html((jQuery(_target).find( options.dependentSelecta ).outerWidth() - jQuery(_target).find( options.dependentSelecta ).innerWidth() ));
+			// jQuery('#test-area').html((jQuery(_target).find( options.dependentSelecta ).outerWidth() - jQuery(_target).find( options.dependentSelecta ).innerWidth() ));
 			jQuery(_target).find( options.resizableSelecta ).css("max-width",maxWidthValue);
 		}
 		function resizeDependent(_target) {

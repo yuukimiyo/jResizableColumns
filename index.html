@@ -10,9 +10,9 @@
 <script type="text/javascript">
 $(function() {
 	
-	$('.resizable').resizable();
+	$('.resizable').resizable({handles:"e"});
 	$('#wrapper').resizablecolumns();
-	$('#wrapper2').resizablecolumns();
+	// $('#wrapper2').resizablecolumns();
 
 });
 </script>
@@ -24,10 +24,14 @@ $(function() {
 			header
 		</div>
 		<div class="resizable">
-			resizable
+			<p>resizable<br />
+				tex tex tex tex tex tex tex tex tex tex tex tex tex tex<br />
+			(tex x 100)</p>
 		</div>
 		<div class="dependent">
-			dependent
+			<p>dependent<br />
+				tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex tex<br />
+			(tex x 100)</p>
 		</div>
 		<div class="footer">footer</div>
 	</div>
